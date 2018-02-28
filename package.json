@@ -39,7 +39,7 @@
     "jspm",
     "gulp"
   ],
-  "author": "Christophe Rosset",
+  "author": "Vijay Vadlamani",
   "license": "MIT",
   "jspm": {
     "configFile": "jspm.config.js",

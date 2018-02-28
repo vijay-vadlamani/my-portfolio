@@ -2,7 +2,7 @@
  * @module src/app
  */
 
-import Geolocation from './components/Geolocation/Geolocation.js';
+import Dashboard from './components/dashboard/dashboard.js';
 
 /**
  * This class is called by the app entry point.
@@ -16,7 +16,7 @@ export default class main {
    * @static
    */
   static init() {
-    this.initGeolocation();
+    this.initDashboard();
   }
 
   /**
@@ -24,7 +24,8 @@ export default class main {
    * @method initGeolocation
    * @static
    */
-  static initGeolocation() {
-    (new Geolocation('geolocation')).init();
+
+  static initDashboard() {
+    (new Dashboard('dashboard')).init();
   }
 }
