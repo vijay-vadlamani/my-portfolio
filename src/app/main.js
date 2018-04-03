@@ -3,7 +3,7 @@
  */
 
 import Dashboard from './components/dashboard/dashboard.js';
-
+import Welcome from './components/Welcome/Welcome.js';
 /**
  * This class is called by the app entry point.
  * It holds the logic initiation.
@@ -27,5 +27,6 @@ export default class main {
 
   static initDashboard() {
     (new Dashboard('dashboard')).init();
+    (new Welcome('content').init().show());
   }
 }

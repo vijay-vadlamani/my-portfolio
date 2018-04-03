@@ -1,0 +1,19 @@
+#logo {
+  width: 5em;
+  margin-top: -0.85em;
+  margin-left: -1.25em;
+}
+
+#navbar-personal-styles {
+  margin-top: 48px;
+  font-size: 18px;
+}
+
+.my-awesome-name {
+  color: #a9a9a9;
+  margin-top: 48px;
+}
+
+.menuBar {
+  display: inline;
+}

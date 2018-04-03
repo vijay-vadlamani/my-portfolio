@@ -1,0 +1,32 @@
+h1 {
+  margin-top: 15rem;
+  text-align: center;
+}
+p {
+  margin: 0 0 10px;
+}
+.copyright {
+  margin-top: 25rem;
+  position: fixed;
+  margin-left: 40rem;
+}
+.fa-2x {
+  font-size: 2em;
+}
+.svg-inline--fa {
+  display: inline-block;
+  /* font-size: inherit; */
+  overflow: visible;
+  vertical-align: -.125em;
+}
+svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+.external_links {
+  background-color: transparent;
+  color: #337ab7;
+  text-decoration: none;
+}

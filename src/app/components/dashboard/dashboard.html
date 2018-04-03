@@ -1,18 +1,23 @@
-<nav class="nav navbar-inverse navbar-fixed-top">
+<nav class="nav navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
-      <button class="navbar-toggle" type="button" data-target="#myNavbar">
+      <button class="navbar-toggle menuBar" type="button" data-target="#myNavbar" data-toggle="collapse">
+        <span class="sr-only">Menu</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a href="#" class="navbar-brand">Vijay Vadlamani</a>
+      <a href="#" class="navbar-brand">
+        <img id="logo" src="../../../images/logo.jpg" alt="">
+      </a>
+      <h3 class="visible-xs my-awesome-name">Vijay Vadlamani</h3>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li role="presentation" class="active"><a href="#">Home</a></li>
-        <li role="presentation"><a href="#">About</a></li>
-        <li role="presentation"><a href="#">Projects</a></li>
+      <ul class="nav navbar-nav" id="navbar-personal-styles">
+        <li role="presentation"><a href="#" id="welcome">Welcome</a></li>
+        <li role="presentation"><a href="#" id="about">About</a></li>
+        <li role="presentation"><a href="#" id="projects">Work</a></li>
+        <li role="presentation"><a href="#" id="contact">Contact</a></li>
       </ul>
     </div>
   </div>
