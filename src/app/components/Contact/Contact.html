@@ -1,3 +1,32 @@
-<p>
-  This is contact Page
-</p>
+<div class="formContainer">
+  <h1>Contact</h1>
+  <form method="POST" name="contactform" action="contact-form-handler.php"> 
+      <div class="row">
+        <div  class="form-group col-sm-6 col-md-6 col-lg-6">
+          <label  class="control-label" for="firstName">First Name</label>
+          <input  class="form-control ng-pristine ng-invalid ng-touched" id="firstName" name="firstName" required="" type="text">
+        </div>
+        <div  class="form-group col-sm-6 col-md-6 col-lg-6">
+            <label  class="control-label" for="lastName">Last Name</label>
+            <input  class="form-control ng-pristine ng-invalid ng-touched" id="lastName" name="lastName" required="" type="text">
+          </div>
+      </div>
+      <div class="row">
+          <div class="form-group col-sm-6 col-md-6 col-lg-6">
+            <label class="control-label" for="email">Email</label>
+            <input class="form-control ng-untouched ng-pristine ng-invalid" id="email" name="email" required="" type="email">
+          </div>
+          <div class="form-group col-sm-6 col-md-6 col-lg-6">
+            <label class="control-label" for="phone">Phone</label>
+            <input id="phone" class="form-control ng-untouched ng-pristine ng-invalid" name="phone" required="" placeholder="000-000-000" type="tel">
+          </div>
+      </div>
+      <div class="row">
+          <div class="form-group col-sm-12 col-md-12 col-lg-12">
+            <label class="control-label" for="question">Question</label>
+            <textarea class="form-control ng-untouched ng-pristine ng-invalid" formcontrolname="question" id="question" name="question" required="" rows="8"></textarea>
+          </div>
+      </div>
+      <input type="submit" value="Submit"><br>
+  </form>
+</div>
