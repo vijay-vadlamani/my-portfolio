@@ -1,3 +1,8 @@
 .formContainer {
   margin-top: 10em;
 }
+.contact {
+  margin-top: 3%;
+  position: fixed;
+  margin-left: 35%;
+}

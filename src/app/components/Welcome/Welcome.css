@@ -19,3 +19,9 @@
   padding-left: 25%;
   padding-top:2%;
 }
+
+.welcome {
+  margin-top: 5%;
+  position: fixed;
+  margin-left: 35%;
+}

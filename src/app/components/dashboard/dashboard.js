@@ -5,7 +5,6 @@ import Component from '../Component/Component.js';
 import Welcome from '../Welcome/Welcome.js';
 import About from '../About/About.js';
 import Contact from '../Contact/Contact.js';
-import Projects from '../Projects/Projects.js';
 
 import template from './dashboard.html!text';
 
@@ -17,17 +16,14 @@ export default class Dashboard extends Component{
     //Binding because of the instance of this not being pointed correctly
     this.welcomePage = this.welcomePage.bind(this);
     this.aboutPage = this.aboutPage.bind(this);
-    this.projectsPage = this.projectsPage.bind(this);
     this.contactPage = this.contactPage.bind(this);
     this.welcome = document.getElementById("welcome");
     this.elm = document.getElementById("about");
     this.logo = document.getElementById("logo");
-    this.pro = document.getElementById("projects");
     this.con = document.getElementById("contact");
     this.welcome.addEventListener('click', this.welcomePage);
     this.logo.addEventListener('click', this.welcomePage);
     this.elm.addEventListener('click', this.aboutPage);
-    this.pro.addEventListener('click', this.projectsPage);
     this.con.addEventListener('click', this.contactPage);
   }
 
@@ -39,12 +35,6 @@ export default class Dashboard extends Component{
   aboutPage() {
     if(this.elm) {
       let content = (new About('content').init().show());
-    }
-  }
-
-  projectsPage() {
-    if (this.pro) {
-      let content = (new Projects('content').init().show());
     }
   }
 

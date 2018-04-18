@@ -5,10 +5,10 @@ h1 {
 p {
   margin: 0 0 10px;
 }
-.copyright {
-  margin-top: 25rem;
+.about {
+  margin-top: 3%;
   position: fixed;
-  margin-left: 40rem;
+  margin-left: 20%;
 }
 .fa-2x {
   font-size: 2em;
